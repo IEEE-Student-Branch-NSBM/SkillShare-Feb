@@ -196,6 +196,10 @@ span{
     min-height: auto;
     padding-bottom: 5rem;
 }
+.education h2{
+    margin-bottom: 2rem;
+}
+
 .education .education-row{
     display: flex;
     flex-wrap: wrap;
@@ -389,7 +393,7 @@ span{
         position: relative;
         display: block;
         justify-content: space-between;
-        /* flex-wrap: wrap; */
+        
     }
     .contact form .input-box .input-field{
         position: relative;
@@ -444,6 +448,11 @@ span{
         width: 90vw;
         height: 90vw;
         margin-top: 4rem;
+    }
+    .contact form .input-box .input-field{
+        position: relative;
+        width: 100%;
+        margin: .8rem 0;
     }
 }
 
