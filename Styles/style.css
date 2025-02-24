@@ -56,9 +56,7 @@ section {
     align-items: center;
     z-index: 100;
 }
-.header .sticky{
-    border-bottom: .1rem solid rgba(0, 0, 0, .2);
-}
+
 
 .logo{
     width: 50px;
@@ -153,6 +151,7 @@ span{
     color: var(--secondary-bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn:hover{
     box-shadow: none;
@@ -306,24 +305,7 @@ span{
 .contact form .textarea-field textarea::placeholder {
     color: var(--text-color);
 }
-.contact form .focus{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background: var(--secondary-bg-color);
-    border-radius: .6rem;
-    z-index: -1;
-    transition: .5s;
-}
-.contact form .input-box .input-field input:focus~.focus,
-.contact form .input-box .input-field input:valid~.focus,
-.contact form .textarea-field textarea:focus~.focus,
-.contact form .textarea-field textarea:valid~.focus{
-    width: 100%;
 
-}
 .contact form .textarea-field{
     position: relative;
     margin: .8rem 0 2.7rem;
@@ -332,15 +314,7 @@ span{
 .contact form .textarea-field textarea{
     resize: none;
 }
-.contact form .status-message{
-    font-size: 1.3rem;
-    color: var(--primary-color);
-    margin: 2rem 0;
-    text-align: center;
-}
-.contact form .btn-box.btns .btn{
-    cursor: pointer;
-}
+
 
 /* footer */
 .footer{
